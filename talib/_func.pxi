@@ -1,3 +1,4 @@
+# cython: freethreading_compatible = True
 cimport numpy as np
 from numpy import nan
 from cython import boundscheck, wraparound

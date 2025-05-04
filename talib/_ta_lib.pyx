@@ -1,3 +1,4 @@
+# cython: freethreading_compatible = True
 include "_common.pxi"
 include "_func.pxi"
 include "_abstract.pxi"

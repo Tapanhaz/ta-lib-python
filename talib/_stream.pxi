@@ -1,3 +1,4 @@
+ # cython: freethreading_compatible = True
 cimport numpy as np
 from cython import boundscheck, wraparound
 cimport _ta_lib as lib

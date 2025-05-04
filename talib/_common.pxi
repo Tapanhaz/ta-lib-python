@@ -1,3 +1,4 @@
+# cython: freethreading_compatible = True
 cimport _ta_lib as lib
 from _ta_lib cimport TA_RetCode, TA_FuncUnstId
 

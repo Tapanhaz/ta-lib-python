@@ -1,4 +1,5 @@
 #cython: language_level=2, embedsignature=True
+# cython: freethreading_compatible = True
 
 cdef extern from "ta-lib/ta_defs.h":
 

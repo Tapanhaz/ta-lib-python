@@ -1,6 +1,7 @@
 '''
 This file Copyright (c) 2013 Brian A Cappello <briancappello at gmail>
 '''
+# cython: freethreading_compatible = True
 import math
 import threading
 try:
